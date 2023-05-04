@@ -1,0 +1,45 @@
+<html>
+    <head>
+        <script> src="js/cliente.js"</script>
+        <title></title>
+    
+    </head>
+    <body>
+        <!-- Barra Navegación -->
+        <!-- Título -->
+        <!-- Formulario para agregar cliente -->
+        <form>
+            <div class="mb-3">
+              <label for="txt_id_cliente" class="form-label">RUT</label>
+              <input type="number" class="form-control" id="txt_id_cliente" aria-describedby="txt_id_cliente_ayuda">
+              <div id="txt_id_cliente_ayuda" class="form-text">Rut sin puntos ni guión.</div>
+            </div>
+            <div class="mb-3">
+                <label for="txt_dv_cliente" class="form-label">DV</label>
+                <input type="number" class="form-control" id="txt_dv_cliente" aria-describedby="txt_dv_cliente_ayuda">
+                <div id="txt_dv_cliente_ayuda" class="form-text">Dígito verificador.</div>
+              </div>
+              <div class="mb-3">
+                <label for="txt_nombres" class="form-label">Nombres</label>
+                <input type="number" class="form-control" id="txt_nombres" aria-describedby="txt_nombres_ayuda">
+                <div id="txt_nombres_ayuda" class="form-text">Primer y segundo nombre(opcional).</div>
+              </div>
+              <div class="mb-3">
+                <label for="txt_apellidos" class="form-label">Apellidos</label>
+                <input type="number" class="form-control" id="txt_apellidos" aria-describedby="txt_apellidos_ayuda">
+                <div id="txt_apellidos_ayuda" class="form-text">Primer y segundo apellido.</div>
+              </div>
+              <div class="mb-3">
+                <label for="txt_email" class="form-label">Correo Electrónico</label>
+                <input type="number" class="form-control" id="txt_email" aria-describedby="txt_email_ayuda">
+                <div id="txt_email_ayuda" class="form-text">Correo electrónico personal.</div>
+              </div>
+              <div class="mb-3">
+                <label for="txt_celular" class="form-label">Celular</label>
+                <input type="number" class="form-control" id="txt_celular" aria-describedby="txt_celular_ayuda">
+                <div id="txt_celular_ayuda" class="form-text">Celular personal.</div>
+              </div>
+              <button type="submit" class="btn btn-primary" onclick="agregarCliente()">Submit</button>
+          </form>
+    </body>
+</html>
